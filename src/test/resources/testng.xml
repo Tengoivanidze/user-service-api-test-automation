@@ -1,0 +1,13 @@
+<suite name="API Tests">
+    
+    <listeners>
+        <listener class-name="listeners.TestResultListener"/>
+    </listeners>
+    
+    <test name="Users API">
+        <classes>
+            <class name="tests.UsersApiTest"/>
+        </classes>
+    </test>
+
+</suite>
